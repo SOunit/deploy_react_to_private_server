@@ -1,5 +1,5 @@
 {
-  "name": "react_root_deploy",
+  "name": "react_subdir_deploy",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
