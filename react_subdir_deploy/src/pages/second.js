@@ -6,6 +6,7 @@ const Second = () => {
     <div className={classes['second']}>
       <h1 className={classes['second__title']}>Second</h1>
       <Link to='/first'>To First</Link>
+      <Link to='/post'>To POST</Link>
     </div>
   );
 };
