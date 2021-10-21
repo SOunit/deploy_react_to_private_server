@@ -1,12 +1,12 @@
-import { Link } from 'react-router-dom';
+import LinkButton from '../component/linkButton/LinkButton';
 import classes from './first.module.css';
 
 const First = () => {
   return (
     <div className={classes['first']}>
       <h1 className={classes['first__title']}>First</h1>
-      <Link to='/second'>To second</Link>
-      <Link to='/post'>To POST</Link>
+      <LinkButton to='/second' text='To Second' />
+      <LinkButton to='/post' text='To Post' />
     </div>
   );
 };
