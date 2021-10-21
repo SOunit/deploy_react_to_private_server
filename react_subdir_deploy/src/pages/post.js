@@ -17,7 +17,7 @@ const Post = () => {
     // });
 
     // axios
-    //   .get('http://yurtyurt.com/php/get/json/')
+    //   .get('http://yurtyurt.com/php/json/get/')
     //   .then((data) => {
     //     console.log(data);
     //   })
@@ -28,7 +28,7 @@ const Post = () => {
     console.log(jsonObj);
 
     axios
-      .post('http://yurtyurt.com/php/post/json/', jsonObj)
+      .post('http://yurtyurt.com/php/json/post/', jsonObj)
       .then((data) => {
         console.log(data.data.greeting);
         setMessage(data.data.greeting);
