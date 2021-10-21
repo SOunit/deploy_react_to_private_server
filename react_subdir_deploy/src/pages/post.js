@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import axios from 'axios';
 import classes from './post.module.css';
 
 const Post = () => {
@@ -8,7 +9,10 @@ const Post = () => {
     e.preventDefault();
     console.log('submit');
 
-    // post
+    // get to json placeholder
+    axios.get('https://jsonplaceholder.typicode.com/todos/1').then((data) => {
+      console.log(data);
+    });
 
     setMessage('submit!!');
   };
