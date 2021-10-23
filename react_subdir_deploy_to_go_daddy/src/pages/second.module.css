@@ -1,0 +1,13 @@
+.second {
+  background-color: paleturquoise;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.second__title {
+  margin: 0;
+  color: red;
+}
